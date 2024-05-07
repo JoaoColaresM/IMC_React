@@ -1,0 +1,34 @@
+table {
+    font-size: 24px;
+    width: 45%;
+}
+
+caption {
+    margin: 16px 0;
+    text-transform: uppercase;
+}
+
+thead {
+    color: var(--corTexto2);
+    background-color: var(--corTerciaria);
+}
+
+th {
+    padding: 8px;
+}
+
+tbody {
+    background-color: var(--corPrincipal);
+}
+
+tr {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+td {
+    color: var(--corTexto);
+    padding: 8px;
+    font-size: 16px;
+}
